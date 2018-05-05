@@ -1,12 +1,12 @@
 mgmt_ip: 10.0.0.1
-SDNmgmt_ip: 10.0.0.5
 Vlans:
   green:
     id: 10
   red:
     id: 20
 ports:
- 1: [20]
- 2: [10]
-auth_ip: 10.0.0.3
-SDNlatestmgnt_ip: 10.0.0.0
+ 1: [10]
+ 2: [20]
+ 3: [30]
+
+
