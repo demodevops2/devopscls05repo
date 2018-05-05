@@ -1,13 +1,21 @@
 mgmt_ip: 10.0.0.1
-SDN_ip: 10.0.0.2
 Vlans:
   blue:
     id: 10
-  green:
+mgmt_ip: 10.0.1.1
+Vlans:
+  white:
+    id: 10
+  black:
+>>>>>>> auth
     id: 20
 ports:
  1: [10]
  2: [20]
+<<<<<<< HEAD
+=======
+auth_ip: 10.0.0.3
+>>>>>>> auth
  
 
 
