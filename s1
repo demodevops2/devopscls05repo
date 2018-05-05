@@ -1,12 +1,13 @@
-mgmt_ip: 10.0.0.1
+mgmt_ip: 10.0.1.1
 Vlans:
-  green:
+  white:
     id: 10
-  red:
+  black:
     id: 20
 ports:
  1: [10]
  2: [20]
- 3: [30]
+auth_ip: 10.0.0.3
+ 
 
 
